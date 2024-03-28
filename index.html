@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="index.css" /> -->
+    <title>Document</title>
+  </head>
+  <body style="margin: 0">
+    <form>
+      <br />
+      <label for="amount">choose expense amount: </label>
+      <input type="number" id="amount" />
+      <label for="description">choose description: </label>
+      <input type="text" id="description" />
+      <label for="categorie">choose categorie: </label>
+      <select id="categorie">
+        <option>fuel</option>
+        <option>food</option>
+        <option>electricity</option>
+        <option>movie</option>
+      </select>
+      <button id="submit" onclick="submitForm(event);">submit expense</button>
+    </form>
+    <!-- Add Unordered List Element Here -->
+    <ul id="list"></ul>
+  </body>
+  <script src="index.js"></script>
+</html>
